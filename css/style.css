@@ -667,7 +667,7 @@ border-bottom: 20px;
   margin-bottom:15px
 }
 
- /* NEW CSS SUBPAGE */
+ /*CSS SUBPAGE */
  .color-primary {
   color:var(--primary-color);
 }
@@ -1009,6 +1009,67 @@ margin: 25px auto auto auto;
   }
 
 
+  .content_area_calsmart.ca-image img {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url('https://picsum.photos/700/400');
+   }
+
+   .content_area_vegan.ca-image img {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url('https://picsum.photos/700/400');
+  }
+
+  .category_selection_content3p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--grid-gap);
+    height: fit-content;
+    box-sizing: border-box;
+    width: var(--width-12col);
+    margin: 30px auto 0 auto;
+  }
+  
+  .category_selection_box {
+    background-color: var(--background-color-light);
+    background-image: url('https://picsum.photos/1280/650');
+    position:relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 1px var(--color_dark);
+    height: 372.4px;  
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-light);
+    }
+
+  .content_area_button_calsmart {
+    width: 180px;
+  height: 40px;
+  background-color: var(--color_dark);
+  margin-top: 45px;
+  border-radius: 5px;
+  margin-left: 500px;
+  }
+
+  .content_area_button_vegan {
+    width: 200px;
+  height: 60px;
+  background-color: var(--category-pasta);
+  margin-top: 45px;
+  border-radius: 5px;
+  margin-left: 1325px;
+  margin-bottom: -120px;
+  }
+
   
   .vegan_content {
     height: 350px;
@@ -1033,8 +1094,8 @@ margin-top: 30px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height:500px;
-  color:var(--color-light)
+  height:600px;
+ 
         
   
 }
@@ -1047,6 +1108,16 @@ margin-top: 30px;
 .bottom_hero_text3p {
   font-size: xx-large;
   color: var(--category-pasta);
+  margin-left: 300px;
+}
+
+.content_area_button3p {
+  width: 180px;
+height: 40px;
+background-color: var(--color_dark);
+margin-top: 45px;
+border-radius: 5px;
+margin-left: 300px;
 }
 
 .category_selection3p {
@@ -1344,4 +1415,234 @@ margin-bottom: 40px;
 }
 
 
+}
+
+
+/* Mealplan media */
+.hero-container3p {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: var(--grid-gap);
+  height: 100%;
+  width: var(--width-12col);
+  margin: 0 auto;
+  font-size: 200px;
+}
+
+.hero-text-big-header3p {
+  font-size: 60px;
+  padding-top: 175px;
+}
+
+.content_area3p {
+  display: flex;
+  margin: 25px auto;
+  width: var(--width-12col);
+}
+
+.category_selection_content3p {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--grid-gap);
+  width: var(--width-12col);
+  margin: 30px auto 0 auto;
+}
+
+.category_selection_box {
+  background-color: var(--background-color-light);
+  background-image: url('https://picsum.photos/1280/650');
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 1px var(--color_dark);
+  height: 372.4px;
+  align-items: center;
+  cursor: pointer;
+  color: var(--color-light);
+}
+
+.content_area_button_calsmart {
+  width: 180px;
+  height: 40px;
+  background-color: var(--color_dark);
+  margin-top: 45px;
+  border-radius: 5px;
+  margin-left: 500px;
+}
+
+.content_area_button_vegan {
+  width: 200px;
+  height: 60px;
+  background-color: var(--category-pasta);
+  margin-top: 45px;
+  border-radius: 5px;
+  margin-left: 1325px;
+  margin-bottom: -120px;
+}
+
+.vegan_content, .cal_smart {
+  height: 350px;
+  width: 650px;
+  display: flex;
+}
+
+.clip_picture3p {
+  margin-top: 30px;
+  width: var(--width-full);
+  background-image: url('https://picsum.photos/1280/650');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.content_area_block_bottom_hero3p {
+  margin-top: -250px;
+  min-height: 40px;
+}
+
+.bottom_hero_text3p {
+  font-size: xx-large;
+  color: var(--category-pasta);
+  margin-left: 300px;
+}
+
+.content_area_button3p {
+  width: 180px;
+  height: 40px;
+  background-color: var(--color_dark);
+  margin-top: 45px;
+  border-radius: 5px;
+  margin-left: 300px;
+}
+
+.category_selection3p {
+  height: 60px;
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-white);
+  font-size: 37px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 20px 0;
+  width: var(--width-12col);
+  margin: 70px auto 0 auto;
+}
+
+.content_area3pp {
+  width: 50%;
+  background-image: url('https://picsum.photos/1280/650');
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  /* Adjust layout for smaller desktops */
+  .hero-container3p {
+    font-size: 150px;
+  }
+
+  .hero-text-big-header3p {
+    font-size: 48px;
+    padding-top: 100px;
+  }
+
+  .content_area_button_calsmart,
+  .content_area_button_vegan {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bottom_hero_text3p, .content_area_button3p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust layout for tablets */
+  .hero-container3p {
+    grid-template-columns: repeat(8, 1fr);
+    font-size: 100px;
+  }
+
+  .hero-text-big-header3p {
+    font-size: 36px;
+    padding-top: 50px;
+  }
+
+  .category_selection_content3p {
+    grid-template-columns: 1fr;
+  }
+
+  .clip_picture3p {
+    height: 400px;
+  }
+
+  .category_selection_box {
+    height: auto;
+    padding: 20px;
+  }
+
+  .content_area3p, .category_selection3p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .bottom_hero_text3p {
+    font-size: large;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust layout for mobile */
+  .hero-container3p {
+    grid-template-columns: 1fr;
+    font-size: 60px;
+  }
+
+  .hero-text-big-header3p {
+    font-size: 28px;
+    padding-top: 20px;
+  }
+
+  .category_selection_content3p, .content_area3p {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .category_selection_box {
+    height: auto;
+    padding: 10px;
+  }
+
+  .clip_picture3p {
+    height: 300px;
+  }
+
+  .bottom_hero_text3p, .content_area_button3p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: medium;
+  }
+
+  .content_area_button_calsmart,
+  .content_area_button_vegan {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .category_selection3p {
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+
+  
 }
