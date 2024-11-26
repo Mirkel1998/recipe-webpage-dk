@@ -1275,16 +1275,52 @@ margin-bottom: 40px;
   .todays_recipes_content {
       grid-template-columns: 1fr;
   }
+
+
+
   .category_selection {
       font-size: 24px;
-      display: none;
-  }
+      }
+
   .category_selection_box {
-      flex-direction: column;
-      padding: 20px;
-      text-align: center;
-      display: none;
+   
+   width: var(--width-full);
+
   }
+
+  .category_selection_box_options {
+    width: 30%;
+  }
+ .category_selection_box_options_vegetarian {
+width: 30%;
+
+}
+.category_selection_box_options_seafood {
+width: 30%;
+}
+.category_selection_box_options_pastas {
+width: 30%;
+}
+
+.category_selection_box_options_chicken {
+width: 30%;
+}
+
+.category_selection_box_options_snacks {
+width: 30%;
+}
+
+.category_selection_box_options_beef {
+width: 30%;
+}
+
+.category_selection_box_options_dessert {
+width: 30%;
+}
+
+
+
+
   .footer {
       flex-direction: column;
       text-align: center;
@@ -1294,6 +1330,10 @@ margin-bottom: 40px;
       margin-top: 10px;
       text-align: center;
   }
+
+  
+
+
 
   .todays_recipes_content_block {
     flex-direction: column;
@@ -1310,9 +1350,21 @@ margin-bottom: 40px;
 
   }
 
-.content_area_block_boxes.ca-image {
+  .content_area_block {
+grid-template-columns: 1fr;
+  }
+
+.ca-image {
   display: none;
 }
+
+.txt-box {
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
       
 /* Base styles (Desktop view) */
 .color-primary {
@@ -1363,6 +1415,8 @@ margin-bottom: 40px;
 
 
 
+
+}
 Subpage media 
 @media (max-width: 1200px) {
   
@@ -1426,8 +1480,6 @@ Subpage media
   .recipe_instruction_one_block, .recipe_instruction_two_block {
     margin: 20px 20px 0 20px;
   }
-}
-
 
 }
 
